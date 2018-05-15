@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+}
+
+main {
+  box-sizing: inherit;
+  color: white;
+  background-color: #2444ff;
+  padding: 4rem 1rem 2rem 1rem;
+}

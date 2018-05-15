@@ -1,0 +1,16 @@
+html
+    head
+        title Find the GitHub resume you want
+        link(rel="stylesheet", href="/css/styles.css")
+        link(href="https://fonts.googleapis.com/css?family=Pangolin", rel="stylesheet")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css")
+        script(src="/javascripts/anime.js")
+    body
+        main
+            h1 What's your GitHub username?
+            form(method='GET' action='/resume')
+                  div.container
+                    div.input-field.col.s6
+                      label(for='textarea1')
+                      input#textarea1.materialize-textarea(type='text', placeholder='Username', name='username') 
+                
